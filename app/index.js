@@ -1,20 +1,38 @@
-
-
-class Animal {
-  constructor(name,height){
-    this.name=name;
-    this.height = height;
+class Calculator {
+  static multiply(a,b){
+    return a*b;
   }
-
+  static add(a,b){
+    return a+b;
+  }
 }
 
+let a = Calculator.add(5,7);
+console.log(a);
 
 
 
 
 
+// import Animal from './Animal';
 
 
+
+
+// class Lion extends Animal {
+//   constructor(name,height,color){
+//     super(name,height);
+//     this.color=color;
+
+//   }
+
+//   hello(){
+//     console.log(`Hi! I'm ${this.name} from Pride Rock!`)
+//   }
+// }
+
+// let son = new Lion("Simba",2,"golden");
+// son.hello();
 
 
 
